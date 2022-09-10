@@ -17,4 +17,4 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
 
 class AchievementViewSet(viewsets.ModelViewSet):
     queryset = Achievement.objects.all()
-    serializer_class = AchievementSerializer
+    serializer_class = AchievementSerializer 
